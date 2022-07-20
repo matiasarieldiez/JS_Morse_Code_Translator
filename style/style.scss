@@ -1,0 +1,25 @@
+* {
+    margin: auto;
+    padding: 0;
+}
+
+.text {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 25px;
+
+    &--header {
+        font-size: 40px;
+    }
+
+    &--subheader {
+        font-size: 30px;
+    }
+
+    &--title {
+        font-size: 20px;
+    }
+
+    &--paragraph {
+        font-size: 15px;
+    }
+}

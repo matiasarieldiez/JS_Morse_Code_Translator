@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style/style.css">
+        <script type="module" src="./scripts/script.js" defer></script>
+        <title>JS Morse Code Translator</title>
+    </head>
+
+    <body>
+        <section id="translatorApp">
+            <h1 class="text text--header">JS Morse Code Translator</h1>
+            <div>
+                <form id="englishToMorse">
+                    <h3 class="text text--subheader">English to Morse Code</h3>
+                    <h2 class="text text--title">Instructions</h2>
+                    <p class="text text--paragraph">Just type letters and
+                        punctuation in the box below and
+                        click "Translate to
+                        Morse Code". An Output with the Morse code will
+                        appear below the text
+                        box.</p>
+                    <textarea name="englishToMorse" id="englishText" cols="100"
+                        rows="10"
+                        placeholder="Please, enter your English Text here according to the instructions above"></textarea>
+                    <input type="submit" value="Translate English to Morse Code"
+                        class="button--english-to-morse-code">
+                </form>
+            </div>
+            <div>
+                <form id="morseToEnglish">
+                    <h3 class="text text--subheader">Morse Code to English</h3>
+                    <h2 class="text text--title">Instructions</h2>
+                    <p class="text text--paragraph">You can type Morse code into
+                        the box below using "." and
+                        "-". Letters should be
+                        separated by ONE Space, and words by THREE spaces. Then,
+                        click "Translate to English" An
+                        Output with the English Translation will
+                        appear below the text
+                        box.</p>
+                    <textarea name="morseToEnglish" id="morseText" cols="100"
+                        rows="10"
+                        placeholder="Please, enter your Morse Code Text here according to the instructions above"></textarea>
+                    <input type="submit" value="Translate Morse Code to English"
+                        class="button--morse-to-english-code">
+                </form>
+            </div>
+        </section>
+    </body>
+
+</html>
