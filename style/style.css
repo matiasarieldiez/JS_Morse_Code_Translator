@@ -3,19 +3,71 @@
   padding: 0;
 }
 
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
 .text {
-  font-family: Arial, Helvetica, sans-serif;
-  margin-bottom: 25px;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  margin-bottom: 20px;
 }
 .text--header {
   font-size: 40px;
+  text-align: center;
 }
 .text--subheader {
   font-size: 30px;
 }
 .text--title {
   font-size: 20px;
+  text-align: left;
 }
 .text--paragraph {
   font-size: 15px;
+  padding: 0px 50px;
+}
+.text--separator {
+  text-align: center;
+  font-size: 50px;
+  letter-spacing: 20px;
+}
+
+#translatorApp {
+  width: 50%;
+  border-radius: 50px;
+  box-shadow: 0px 0px 100px 5px;
+  padding: 20px 50px;
+  background: linear-gradient(rgb(49, 124, 206), rgb(29, 77, 129));
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-end;
+  margin-bottom: 40px;
+}
+
+.button {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  border-style: none;
+}
+.button:hover {
+  transform: scale(1.1, 1.1);
+}
+
+textarea {
+  max-width: 95%;
+  padding-top: 10px;
+  border-style: none;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 0px white;
+  resize: none;
+  text-align: center;
+  font-size: 18px;
 }

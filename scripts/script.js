@@ -11,10 +11,12 @@ englishToMorseCodeButton.addEventListener("click", (event) => {
     event.preventDefault();
     const textToTranslate = englishText.value;
     morseText.value = englishToMorse(textToTranslate);
+    englishText.value = "";
 });
 
 morseCodeToEnglishButton.addEventListener("click", (event) => {
     event.preventDefault();
     const textToTranslate = morseText.value;
     englishText.value = morseToEnglish(textToTranslate);
+    morseText.value = "";
 });

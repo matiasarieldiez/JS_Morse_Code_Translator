@@ -6,6 +6,11 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./style/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&display=swap"
+            rel="stylesheet">
         <script type="module" src="./scripts/script.js" defer></script>
         <title>JS Morse Code Translator</title>
     </head>
@@ -24,10 +29,10 @@
                         appear below the text
                         box.</p>
                     <textarea name="englishToMorse" id="englishText" cols="100"
-                        rows="10"
+                        rows="5"
                         placeholder="Please, enter your English Text here according to the instructions above"></textarea>
-                    <input type="submit" value="Translate English to Morse Code"
-                        class="button--english-to-morse-code">
+                    <input type="submit" value="Translate to Morse Code"
+                        class="button button--english-to-morse-code">
                 </form>
             </div>
             <div>
@@ -37,16 +42,16 @@
                     <p class="text text--paragraph">You can type Morse code into
                         the box below using "." and
                         "-". Letters should be
-                        separated by ONE Space, and words by THREE spaces. Then,
+                        separated by ONE Space, and words by "|". Then,
                         click "Translate to English" An
                         Output with the English Translation will
                         appear below the text
                         box.</p>
                     <textarea name="morseToEnglish" id="morseText" cols="100"
-                        rows="10"
+                        rows="5"
                         placeholder="Please, enter your Morse Code Text here according to the instructions above"></textarea>
-                    <input type="submit" value="Translate Morse Code to English"
-                        class="button--morse-to-english-code">
+                    <input type="submit" value="Translate to English"
+                        class="button button--morse-to-english-code">
                 </form>
             </div>
         </section>
