@@ -22,3 +22,5 @@ This translator can only handle characters fomr A to Z (No special characters an
 ## Morse Code to English
 
 Each character must be separated by a single SPACE. And each word must be separated by a "|".
+
+![Screenshot](./js_morse_code_translator_1.jpg)

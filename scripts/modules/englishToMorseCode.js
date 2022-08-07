@@ -11,9 +11,9 @@ export const englishToMorse = (string) => {
                 .toUpperCase() // returns ['MY','NAME','IS','MATIAS']
                 .split("") // returns [['M','Y'], ['N','A','M','E'], ['I','S'] ,['M','A','T','I','A','S']]
                 .map((character) => {
-                    return morseCodeAlphabet[character]
-                        ? `${morseCodeAlphabet[character]}`
-                        : "#";
+                    return morseCodeAlphabet[character] // If the character exists in morseCodeAlphabet Object
+                        ? `${morseCodeAlphabet[character]}` // Return the value of morseCodeAlphabet for that key
+                        : "#"; // Else Returns # for a character that cannot be translated
                 }) // returns [['--','-.--'],['-.','.-','--','.'],['..','...'],['--','.-','-','..','.-','...']];
                 .join(" "); // returns ['-- -.--','-. .- -- .','.. ...','-- .- - .. .- ...'];
         })
